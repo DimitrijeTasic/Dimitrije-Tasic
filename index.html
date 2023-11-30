@@ -21,6 +21,11 @@
     {
         aspect-ratio: 1;
     }
+    .slika3
+    {
+        width: 200px;
+        height: auto3;
+    }
     .hover:hover
     {
         opacity: 0.85;
@@ -47,10 +52,35 @@
 <body class="pozadina mx-5">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <div class="container-fluid m-0 p-0 text-light">
+        <nav class="navbar navbar-expand navbar-light bg-primary fixed-top "> 
+            <a class="nav-link display-1 fw-bold" href="#" style="margin-left: 3rem; margin-right: 3rem;">
+              Home
+            </a>
+            <a class="nav-link display-1 fw-bold" href="#podaci" style="margin-left: 3rem; margin-right: 3rem;">
+                Lični podaci
+            </a>
+            <a class="nav-link display-1 fw-bold" href="#obrazovanje" style="margin-left: 3rem; margin-right: 3rem;">
+                Obrazovanje
+            </a>      
+            <a class="nav-link" href="#interesovanja" style="margin-left: 3rem; margin-right: 3rem;">
+              Interesovanja
+            </a>
+            <a class="nav-link" href="#postignuća" style="margin-left: 3rem; margin-right: 3rem;">
+              Postignuća
+            </a>
+            <a class="nav-link" href="#aspiracije" style="margin-left: 3rem; margin-right: 3rem;">
+              Aspiracije
+            </a>
+            <a class="nav-link display-1 fw-bold" href="#iskustva" style="margin-left: 3rem; margin-right: 3rem;">
+                Iskustva
+            </a>  
+          </nav>
+        <br><br>
+        <br><br>
         <h1 class="display-1 fw-bolder text-light text-center my-4">Dimitrije Tasić</h1>
         <br></br>
         <br></br>
-        <div  class="row m-5 p-5 rounded-5 bg-secondary justify-content-center">    
+        <div  class="row m-5 p-5 rounded-5 bg-secondary justify-content-center" id="podaci">    
             <img src="Dimitrije Tasic Slika.png" class="rounded-5 slika hover hover2">
             <div class="col ms-2 p-5 text-light">    
                 <h5 class="display-5 fw-bold text-light mb-5">Lični podaci:</h5>
@@ -75,7 +105,7 @@
         <br><br>
         <br><br>
         <div  class="col justify-content-center my-5 mx-4 bg-secondary p-5 rounded-5">
-            <h2 class="display-2 fw-bolder text-light text-center mb-5">Obrazovanje</h2> 
+            <h2 class="display-2 fw-bolder text-light text-center mb-5" id="obrazovanje">Obrazovanje</h2> 
             <br></br>
             <div class="row ms-3 mt-5 me-5 mb-5 p-0">
                 <img src="Milutin i Draginja Todorovic.png" class="krug slika slika2 hover hover2">
@@ -109,12 +139,11 @@
                 </div>
             </div>           
         </div>
-    </div>
     <br><br>
     <br><br>
     <br><br>
         <div  class="col justify-content-center my-5 mx-4 bg-secondary p-5 rounded-5 text-light">
-            <h2 class="display-2 fw-bold text-light text-center mb-5">Interesovanja</h2> 
+            <h2 class="display-2 fw-bold text-light text-center mb-5" id="interesovanja">Interesovanja</h2> 
             <br></br>
             <div class="col">
                 <div class="row slova ms-3 mt-5 pt-4 justify-content-center">
@@ -123,7 +152,7 @@
             </div>
             <br></br>
             <br></br>
-            <h2 class="display-2 fw-bold text-light text-center mb-5">Postignuća</h2> 
+            <h2 class="display-2 fw-bold text-light text-center mb-5" id="postignuća">Postignuća</h2> 
             <br></br>
             <div class="col">
                 <div class="row slova ms-3 mt-5 pt-4 justify-content-center">
@@ -132,14 +161,60 @@
             </div>
             <br></br>
             <br></br>
-            <h2 class="display-2 fw-bold text-light text-center mb-5">Aspiracije</h2> 
+            <h2 class="display-2 fw-bold text-light text-center mb-5" id="aspiracije">Aspiracije</h2> 
             <br></br>
             <div class="col">
                 <div class="row slova  ms-3 mt-5 pt-4 justify-content-center">
                     <p class="fst-italic text-center text-light">Moja najveća aspiracija je da radim u gejming industriji bilo samostalno ili kao član tima game developera.</p>
                 </div>
+                <br><br>
+                <br><br>
             </div>          
         </div>
-    </div> 
+    </div>
+    <br><br>
+    <br><br>
+    <br><br>
+        <br></br>
+        <br></br>
+        <div  class="row m-5 p-5 rounded-5 bg-secondary text-light">
+            <h2 class="display-2 fw-bold text-light text-center mb-5" id="iskustva">Iskustva</h2> 
+            <div class="col ps-0 me-5">
+                <img src="google.png" class="slika3 hover hover2 ms-5">
+                <p class="malaslova" style="margin-left: 6rem; margin-top: 1rem;">Radio za Google</p>
+                <br><br>
+                <br><br>
+                <img src="android.png" class="slika3 hover hover2" style="margin-left: 3rem;">
+                <p class="malaslova razmak"style="margin-top: 5rem; margin-right: 4rem;">Radio na developovanju android operativnog sistema</p>
+            </div>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <div class="col ps-0 pb-5 ">
+                <br><br>
+                <br>
+                <img src="Oracle.png" class="slika3 hover hover2">
+                <p class="malaslova razmak"style="margin-top: 2rem; margin-left: 3rem">Radio za Oracle</p>
+                <br><br>
+                <br><br>
+                <br><br>
+                <br><br>
+                <img src="bootstrap.png" class="slika3 hover hover2 ms-4">
+                <p class="malaslova razmak"style="margin-top: 3.5rem;">Radio na developovanju bootstrap-a</p>
+            </div>    
+        </div>
+
 </body>
 </html>
