@@ -1,3 +1,50 @@
+let lista=
+[
+    {
+        "tekst":"Veb programiranje",
+        "status":"Završeno"
+    },
+    {
+        "tekst":"Paradigme",
+        "status":"Dodato"
+    },
+    {
+        "tekst":"Baze podataka",
+        "status":"Završeno"
+    },
+    {
+        "tekst":"Matematika",
+        "status":"Započeto"
+    },
+    {
+        "tekst":"Fizika",
+        "status":"Dodato"
+    },
+    {
+        "tekst":"Srpski jezik",
+        "status":"Završeno"
+    },
+    {
+        "tekst":"Engleski jezik",
+        "status":"Dodato"
+    },
+    {
+        "tekst":"Biologija",
+        "status":"Započeto"
+    },
+    {
+        "tekst":"Filozofija",
+        "status":"Započeto"
+    },
+    {
+        "tekst":"Sociologija",
+        "status":"Dodato"
+    },
+    {
+        "tekst":"Fizičko",
+        "status":"Započeto"
+    }
+]
 function checkboks(checkbox){
     targetClass = checkbox.getAttribute('data-target-class')
     console.log(targetClass)
