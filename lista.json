@@ -1,46 +1,46 @@
 [
     {
-        "tekst":"Veb-programiranje",
+        "tekst":"Veb programiranje",
         "status":"Završeno"
     },
     {
-        "tekst":"Veb-programiranje",
+        "tekst":"Paradigme",
         "status":"Dodato"
     },
     {
-        "tekst":"Veb-programiranje",
+        "tekst":"Baze podataka",
         "status":"Završeno"
     },
     {
-        "tekst":"Veb-programiranje",
+        "tekst":"Matematika",
         "status":"Započeto"
     },
     {
-        "tekst":"Veb-programiranje",
+        "tekst":"Fizika",
         "status":"Dodato"
     },
     {
-        "tekst":"Veb-programiranje",
+        "tekst":"Srpski jezik",
         "status":"Završeno"
     },
     {
-        "tekst":"Veb-programiranje",
+        "tekst":"Engleski jezik",
         "status":"Dodato"
     },
     {
-        "tekst":"Veb-programiranje",
+        "tekst":"Biologija",
         "status":"Započeto"
     },
     {
-        "tekst":"Veb-programiranje",
+        "tekst":"Filozofija",
         "status":"Započeto"
     },
     {
-        "tekst":"Veb-programiranje",
+        "tekst":"Sociologija",
         "status":"Dodato"
     },
     {
-        "tekst":"Veb-programiranje",
+        "tekst":"Fizičko",
         "status":"Započeto"
     }
 ]
