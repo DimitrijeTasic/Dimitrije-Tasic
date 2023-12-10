@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Predmeti</title>
+    <script src="skripta.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -18,42 +19,114 @@
     }
 </style>
 </head>
-<body class="pozadina justify-content-center p-5 m-5">
-    <div class="container-fluid m-0 p-0 text-light justify-content-center">
-            <div class="col ms-2 p-5 text-light bg-danger text-center rounded-5 m-5 kartica">
-                veb-progrmiranje
-            </div>
-            <div class="col ms-2 p-5 text-light bg-warning text-center rounded-5 m-5 kartica">
-                programske paradigme
-            </div>
-            <div class="col ms-2 p-5 text-light bg-success text-center rounded-5 m-5 kartica"> 
-                baze podataka
-            </div> 
-            <div class="col ms-2 p-5 text-light bg-danger text-center rounded-5 m-5 kartica">
-                matematika
-            </div>
-            <div class="col ms-2 p-5 text-light bg-danger text-center rounded-5 m-5 kartica">
-                fizika
-            </div>
-            <div class="col ms-2 p-5 text-light bg-warning text-center rounded-5 m-5 kartica">
-                srpski jezik
-            </div>
-            <div class="col ms-2 p-5 text-light bg-warning text-center rounded-5 m-5 kartica">
-                engleski jezik
-            </div>
-            <div class="col ms-2 p-5 text-light bg-success text-center rounded-5 m-5 kartica">
-                biologija
-            </div>
-            <div class="col ms-2 p-5 text-light bg-success text-center rounded-5 m-5 kartica">
-                sociologija
-            </div>
-            <div class="col ms-2 p-5 text-light bg-danger text-center rounded-5 m-5 kartica">
-                filozofija
-            </div>
-            <div class="col ms-2 p-5 text-light bg-success text-center rounded-5 m-5 kartica">
-                fizičko
-            </div>
+<body class="pozadina p-5 m-5">
+    <script>
+        var predmeti=
+        [
+            {
+                "tekst": "veb-progrmiranje",
+                "status": "dodato"
+            },
+            {
+                "tekst": "programske paradigme",
+                "status": "započeto"
+            },
+            {
+                "tekst": "baze podataka",
+                "status": "završreno"
+            },
+            {
+                "tekst": "matematika",
+                "status": "dodato"
+            },
+            {
+                "tekst": "fizika",
+                "status": "dodato"
+            },
+            {
+                "tekst": "srpski jezik",
+                "status": "započeto"
+            },
+            {
+                "tekst": "engleski jezik",
+                "status": "započeto"
+            },
+            {
+                "tekst": "biologija",
+                "status": "završreno"
+            },
+            {
+                "tekst": "sociologija",
+                "status": "završreno"
+            },
+            {
+                "tekst": "filozofija",
+                "status": "dodato"
+            },
+            {
+                "tekst": "fizičko",
+                "status": "završreno"
+            }   
+        ]
+    </script>
+    <div class="container-fluid m-0 p-0 text-light">
+        <div class="justify-content-center">
+            <input type="checkbox" value="dodato" id="dodato">
+            <label for="dodato">dodato</label><br><br>
+            <input type="checkbox" value="započeto" id="započeto">
+            <label for=dodato>započeto</label><br><br>
+            <input type="checkbox" value="završeno" id="završeno">
+            <label for="dodato">završeno</label>
         </div>
+        <script>
+            var predmeti=
+            [
+                {
+                    "tekst": "veb-progrmiranje",
+                    "status": "dodato"
+                },
+                {
+                    "tekst": "programske paradigme",
+                    "status": "započeto"
+                },
+                {
+                    "tekst": "baze podataka",
+                    "status": "završreno"
+                },
+                {
+                    "tekst": "matematika",
+                    "status": "dodato"
+                },
+                {
+                    "tekst": "fizika",
+                    "status": "dodato"
+                },
+                {
+                    "tekst": "srpski jezik",
+                    "status": "započeto"
+                },
+                {
+                    "tekst": "engleski jezik",
+                    "status": "započeto"
+                },
+                {
+                    "tekst": "biologija",
+                    "status": "završreno"
+                },
+                {
+                    "tekst": "sociologija",
+                    "status": "završreno"
+                },
+                {
+                    "tekst": "filozofija",
+                    "status": "dodato"
+                },
+                {
+                    "tekst": "fizičko",
+                    "status": "završreno"
+                }   
+            ]
+        </script>
     </div>
 </body>
 </html>
